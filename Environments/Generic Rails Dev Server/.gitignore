@@ -1,0 +1,7 @@
+# Vagrant ID
+.vagrant/machines/default/virtualbox/id
+
+
+# Data Directory
+data/*
+!data/README.txt
