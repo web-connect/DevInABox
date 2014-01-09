@@ -18,8 +18,12 @@ class installrvm {
 
   if $rvm_installed == "true" {
     rvm_system_ruby {
-      'ruby-1.9.3-p0':
-        ensure => 'present';
+      'ruby-1.9.3':
+        ensure => 'present',
+        default_use => false;
+      'ruby-2.0.0':
+        ensure => 'present',
+        default_use => false;
     }
   }
 }
