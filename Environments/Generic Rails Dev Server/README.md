@@ -14,7 +14,7 @@ Note: you can get ssh information running the following command: vagrant ssh-con
 ## Specs
 This environment contains the following
 * RVM
-* Initial Ruby runtime: 1.9.3-p0
+* Initial Ruby runtime: 1.9.3
 * MySQL-Server
 * MySQL-Client
 
